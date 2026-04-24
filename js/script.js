@@ -20,6 +20,7 @@
     navButtons.forEach(button => {
       button.classList.toggle('active', button.dataset.section === sectionId);
     });
+    pageProgress?.classList.toggle('is-hidden', sectionId === 'hero');
     pageProgress?.classList.toggle('on-dark', sectionId === 'contact');
   }
 
