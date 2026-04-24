@@ -391,7 +391,7 @@ button {
 }
 
 .sec-title.hl-vis .sec-hl::after {
-  animation: hlGrow 0.75s 0.15s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  animation: hlGrow 0.75s 0.5s cubic-bezier(0.22, 1, 0.36, 1) forwards;
 }
 
 /* ─── EXP Section ─────────────────────────── */
@@ -889,7 +889,7 @@ button {
 }
 
 .ct-hl.hl-vis::after {
-  animation: hlGrow 0.75s 0.15s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  animation: hlGrow 0.75s 0.5s cubic-bezier(0.22, 1, 0.36, 1) forwards;
 }
 
 .ct-list { display: flex; flex-direction: column; margin-bottom: 36px; }
