@@ -267,7 +267,6 @@
 
   function renderCarousel() {
     const cards = document.querySelectorAll('.c-card');
-    const dots = document.querySelectorAll('.cc-dot');
     const totalCards = cards.length;
 
     cards.forEach((card, index) => {
@@ -285,9 +284,6 @@
       else card.classList.add('pos-hidden');
     });
 
-    dots.forEach((dot, index) => {
-      dot.classList.toggle('active', index === carouselCenterIndex);
-    });
   }
 
   function moveCarousel(direction) {
@@ -319,8 +315,7 @@
 
   function renderProductCards() {
     const stage = document.getElementById('carousel-stage');
-    const dots = document.getElementById('cc-dots');
-    if (!stage || !dots) return;
+    if (!stage) return;
 
     stage.innerHTML = PRODUCTS.map((product, index) => `
       <div class="c-card" data-idx="${index}">
@@ -341,15 +336,12 @@
               ${product.tags.map(tag => `<span class="c-back-tag">${tag}</span>`).join('')}
             </div>
             ${productLink(product)}
-            <div class="c-back-hint">再點一下關閉</div>
+            <div class="c-back-hint"><i class="fa-solid fa-xmark" aria-hidden="true"></i><span>close</span></div>
           </div>
         </div>
       </div>
     `).join('');
 
-    dots.innerHTML = PRODUCTS.map((_, index) => `
-      <button class="cc-dot" type="button" data-carousel-index="${index}" aria-label="切換到第 ${index + 1} 張"></button>
-    `).join('');
   }
 
   function setupCarousel() {
@@ -362,12 +354,6 @@
     document.querySelectorAll('[data-carousel-action]').forEach(button => {
       button.addEventListener('click', () => {
         moveCarousel(button.dataset.carouselAction === 'next' ? 1 : -1);
-      });
-    });
-
-    document.querySelectorAll('[data-carousel-index]').forEach(dot => {
-      dot.addEventListener('click', () => {
-        goToCarouselCard(Number(dot.dataset.carouselIndex));
       });
     });
 

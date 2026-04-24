@@ -789,10 +789,24 @@ button {
 }
 
 .c-back-hint {
-  font-size: 9px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-size: 10px;
   color: var(--gray2);
   text-align: center;
   padding-top: 4px;
+}
+
+.c-back-hint i {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 8px;
+  height: 10px;
+  font-size: 8px;
+  transform: translateY(1px);
 }
 
 /* Carousel controls */
@@ -823,27 +837,6 @@ button {
   border-color: var(--black);
   background: var(--yellow);
   color: var(--black);
-}
-
-.cc-dots {
-  display: flex;
-  gap: 6px;
-}
-
-.cc-dot {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  border: none;
-  background: var(--border);
-  transition: background 0.2s, transform 0.2s;
-  cursor: pointer;
-  padding: 0;
-}
-
-.cc-dot.active {
-  background: var(--cream);
-  transform: scale(1.3);
 }
 
 .carousel-hint {
