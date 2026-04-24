@@ -48,10 +48,11 @@ button {
   gap: 8px;
 }
 
-.nav-logo-dot {
-  width: 7px; height: 7px;
-  border-radius: 50%;
-  background: var(--yellow);
+.nav-logo-icon {
+  display: block;
+  width: 14px;
+  height: 14px;
+  flex: 0 0 auto;
 }
 
 .nav-logo-link {
