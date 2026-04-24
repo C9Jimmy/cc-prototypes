@@ -1148,6 +1148,34 @@ button {
     margin-top: 6px;
   }
 
+  .carousel-stage {
+    height: 420px;
+  }
+
+  .c-card {
+    width: 230px;
+    height: 350px;
+  }
+
+  .c-card.pos-left1 {
+    transform: translateX(-190px) scale(0.82) rotateY(14deg);
+  }
+
+  .c-card.pos-right1 {
+    transform: translateX(190px) scale(0.82) rotateY(-14deg);
+  }
+
+  .c-card.pos-left2,
+  .c-card.pos-right2 {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .cc-btn {
+    width: 44px;
+    height: 44px;
+  }
+
   .ct-plane {
     width: 150px;
     top: 10%;
