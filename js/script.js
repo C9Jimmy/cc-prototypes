@@ -14,7 +14,7 @@
     },
     {
       type: 'WEB',
-      name: 'CHRIS CHENG Prototypes',
+      name: 'Prototypes',
       meta: 'Portfolio Site',
       icon: 'fa-solid fa-paper-plane',
       desc: '個人作品網站，以 HTML / CSS / JavaScript 實作，使用 Codex CLI / Claude Code 輔助需求拆解、樣式調整、除錯與文件整理。',
