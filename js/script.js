@@ -297,7 +297,6 @@
       else if (offset === -2) card.classList.add('pos-left2');
       else card.classList.add('pos-hidden');
     });
-
   }
 
   function moveCarousel(direction) {
@@ -355,7 +354,6 @@
         </div>
       </div>
     `).join('');
-
   }
 
   function setupCarousel() {
