@@ -5,12 +5,20 @@
   const PRODUCTS = [
     {
       type: 'APP / WEB',
-      name: 'CURDoctor',
+      name: 'CURDr',
       meta: 'Telemedicine Service',
       icon: 'fa-solid fa-video',
-      desc: '參與視訊掛號服務前端開發，產品上架 App Store 與 Google Play。',
+      desc: '參與視訊掛號服務前端維護與改版，協助調整使用流程、介面樣式與相關頁面。',
       tags: ['APP', 'WEB', 'Vue.js'],
       link: 'https://www.curdoctor.com.tw/',
+    },
+    {
+      type: 'APP / WEB',
+      name: 'GGCARRY',
+      meta: 'Gaming Platform',
+      icon: 'fa-solid fa-gamepad',
+      desc: '火競猜產品專案，包含網站架構、APP 資訊架構與視覺規格溝通。',
+      tags: ['APP', 'WEB', 'Wireframe'],
     },
     {
       type: 'APP / WEB',
@@ -36,14 +44,6 @@
       icon: 'fa-solid fa-magnifying-glass-chart',
       desc: '個人 App 專案截圖展示，聚焦工具型產品體驗。',
       tags: ['APP', 'Side Project'],
-    },
-    {
-      type: 'APP / WEB',
-      name: 'GGCARRY',
-      meta: 'Gaming Platform',
-      icon: 'fa-solid fa-gamepad',
-      desc: '火競猜產品專案，包含網站架構、APP 資訊架構與視覺規格溝通。',
-      tags: ['APP', 'WEB', 'Wireframe'],
     },
     {
       type: 'APP',
@@ -74,7 +74,7 @@
       name: 'Trouver',
       meta: 'WordPress',
       icon: 'fa-brands fa-wordpress',
-      desc: '以 WordPress 完成網站從規劃到上線的完整流程，並協助 SEO 優化。',
+      desc: '以 WordPress 完成網站從規劃、內容整理到上線的完整流程，並協助 SEO 基礎規劃與內容優化。',
       tags: ['WEB', 'WordPress', 'SEO'],
       link: 'https://trouver.art/',
     },
@@ -126,10 +126,10 @@
     {
       type: 'SEO',
       name: 'SEO Cases',
-      meta: 'Trouver / 單純點',
+      meta: 'Trouver / 魔女柑仔店 / 單純點',
       icon: 'fa-solid fa-chart-line',
-      desc: '協助品牌進行 SEO 規劃與優化，包含 Trouver、單純點與魔女柑仔店相關案例。',
-      tags: ['SEO', 'Content', 'Marketing'],
+      desc: '協助品牌進行 WordPress SEO 基礎規劃、站內結構整理、關鍵字佈局協作與內容優化。',
+      tags: ['SEO', 'WordPress', 'Content'],
       link: 'https://www.witch-store.com/',
     },
   ];
