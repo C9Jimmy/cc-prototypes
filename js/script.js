@@ -5,10 +5,19 @@
   const PRODUCTS = [
     {
       type: 'WEB',
+      name: 'cc-portfolio',
+      meta: 'Vue 3 · Vite · TypeScript',
+      icon: 'fa-brands fa-vuejs',
+      desc: '以 Vue 3 / Vite / TypeScript 開發的個人作品集，7 個核心區塊完成，搭配 AI 工具協作進行需求拆解、元件開發與除錯。',
+      tags: ['WEB', 'Vue 3', 'AI Dev'],
+      link: 'https://c9jimmy.github.io/cc-portfolio/',
+    },
+    {
+      type: 'WEB',
       name: 'CHRIS CHENG Prototypes',
       meta: 'Portfolio Site',
       icon: 'fa-solid fa-paper-plane',
-      desc: '個人作品網站，以 HTML / CSS / JavaScript 實作，使用 Codex CLI / Claude Code 輔助需求拆解、樣式調整、除錯與文件整理。Vue 3 版本規劃中。',
+      desc: '個人作品網站，以 HTML / CSS / JavaScript 實作，使用 Codex CLI / Claude Code 輔助需求拆解、樣式調整、除錯與文件整理。',
       tags: ['WEB', 'HTML/CSS', 'AI Dev'],
       link: 'https://c9jimmy.github.io/cc-prototypes/',
     },
@@ -37,6 +46,7 @@
       icon: 'fa-solid fa-gamepad',
       desc: '遊戲產品專案，包含網站架構、APP 資訊架構與視覺規格溝通。',
       tags: ['APP', 'WEB', 'Wireframe'],
+      link: 'https://drive.google.com/drive/folders/1TH0C0mFaYax7UA2lLP1kX8hy1Og_Fmsp?usp=drive_link',
     },
     {
       type: 'APP',
@@ -116,22 +126,16 @@
       icon: 'fa-solid fa-magnifying-glass-chart',
       desc: '個人 App 專案截圖展示，聚焦工具型產品體驗。',
       tags: ['APP', 'Side Project'],
+      link: 'https://drive.google.com/drive/folders/1ZswQIkK-_cG4RzdtPNHO_FsX-bdQwexV?usp=sharing',
     },
     {
-      type: 'APP',
-      name: '保生大帝',
-      meta: 'Screenshot',
-      icon: 'fa-solid fa-mobile-screen-button',
-      desc: 'APP 專案截圖展示，早期產品視覺與介面整理。',
-      tags: ['APP', 'Visual'],
-    },
-    {
-      type: 'APP',
-      name: '友善 i 臺中',
-      meta: 'Screenshot',
-      icon: 'fa-solid fa-city',
-      desc: '城市服務類 APP 截圖展示，整理行動端資訊呈現。',
-      tags: ['APP', 'Side Project'],
+      type: 'Python',
+      name: '7-11 賣貨便',
+      meta: 'Python · Playwright',
+      icon: 'fa-solid fa-box',
+      desc: '從 Excel 讀取訂單，以 Playwright 驅動瀏覽器自動批次建立賣貨便寄件單並回寫結果；支援提示訊息偵測關閉、備用門市切換、批次暫停與記憶體釋放。',
+      tags: ['Python', 'Playwright', 'Automation'],
+      link: 'https://drive.google.com/drive/folders/1CMTIZm5XPCA9whr51_5PYzqF9Ssdw2IT?usp=sharing',
     },
     {
       type: 'APP',
@@ -140,6 +144,7 @@
       icon: 'fa-solid fa-calculator',
       desc: '計算機工具 App 截圖展示，呈現基礎工具介面練習。',
       tags: ['APP', 'Side Project'],
+      link: 'https://drive.google.com/drive/folders/1QimofBvzkNK5UsjPg7gJ_w9Z5FY4x10e?usp=sharing',
     },
   ];
 
