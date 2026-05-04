@@ -35,7 +35,7 @@
       name: 'GGCARRY',
       meta: 'Gaming Platform',
       icon: 'fa-solid fa-gamepad',
-      desc: '火競猜產品專案，包含網站架構、APP 資訊架構與視覺規格溝通。',
+      desc: '產品專案，包含網站架構、APP 資訊架構與視覺規格溝通。',
       tags: ['APP', 'WEB', 'Wireframe'],
     },
     {
