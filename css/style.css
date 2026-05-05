@@ -107,9 +107,6 @@ button {
 
 @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.3} }
 
-/* ─── Stage ───────────────────────────────── */
-.stage { /* normal flow wrapper */ }
-
 /* ─── Section — min-height 讓內容可以撐高 ── */
 .section {
   position: relative;
@@ -1070,7 +1067,7 @@ button {
   position: absolute;
   top: 80px;
   right: 60px;
-  width: 250px;x
+  width: 250px;
   height: 250px;
   display: block;
   z-index: 10;
