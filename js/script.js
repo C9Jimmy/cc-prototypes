@@ -5,7 +5,7 @@
   const PRODUCTS = [
     {
       type: 'WEB',
-      name: 'cc-portfolio',
+      name: 'Chris Cheng Portfolio',
       meta: 'Vue 3 · Vite · TypeScript',
       icon: 'fa-brands fa-vuejs',
       desc: '以 Vue 3 / Vite / TypeScript 開發的個人作品集，7 個核心區塊完成，搭配 AI 工具協作進行需求拆解、元件開發與除錯。',
@@ -14,7 +14,7 @@
     },
     {
       type: 'WEB',
-      name: 'Prototypes',
+      name: 'Chris Cheng Prototypes',
       meta: 'Portfolio Site',
       icon: 'fa-solid fa-paper-plane',
       desc: '個人作品網站，以 HTML / CSS / JavaScript 實作，使用 Codex CLI / Claude Code 輔助需求拆解、樣式調整、除錯與文件整理。',
